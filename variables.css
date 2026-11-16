@@ -1,0 +1,15 @@
+/* ===== PALET WARNA (olive, plum, nantucket breeze) - ganti warna cukup di sini ===== */
+:root {
+  --bg: #4f5a28;          /* background halaman (olive) */
+  --bg-deep: #561a40;     /* navbar dan footer (plum) */
+  --panel: #6e2650;       /* kartu proyek dan bar skill (plum terang) */
+  --accent: #b7d1ea;      /* aksen biru muda (tombol, garis, progress bar) */
+  --text: #fffbdc;        /* teks utama (krem) */
+  --muted: #d9dcb8;       /* teks sekunder */
+  /* Versi RGB dari bg-deep dan accent, dipakai untuk warna transparan. Samakan dengan di atas. */
+  --bg-deep-rgb: 86, 26, 64;
+  --accent-rgb: 183, 209, 234;
+  --radius: 14px;
+  --display: "Bricolage Grotesque", "Segoe UI", sans-serif;
+  --body: "DM Sans", "Segoe UI", sans-serif;
+}

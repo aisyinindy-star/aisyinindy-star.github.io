@@ -1,0 +1,5 @@
+/* Halaman Skills */
+.skill-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 22px 48px; }
+.skill-head { display: flex; justify-content: space-between; margin-bottom: 6px; font-weight: 500; }
+.bar { height: 10px; border-radius: 999px; background: var(--panel); overflow: hidden; }
+.bar span { display: block; height: 100%; border-radius: 999px; background: var(--accent); }

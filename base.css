@@ -1,0 +1,24 @@
+/* Reset, body, dan layout section yang dipakai semua halaman */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: var(--body);
+  background-color: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+main { flex: 1; }
+img { max-width: 100%; display: block; }
+a { color: inherit; }
+a:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+
+/* Shared section layout */
+.section { max-width: 1080px; margin: 0 auto; padding: 72px 24px; }
+h2 { font-family: var(--display); font-size: clamp(1.8rem, 4vw, 2.6rem); line-height: 1.15; margin-bottom: 10px; }
+.lead { color: var(--muted); max-width: 52ch; margin-bottom: 40px; }
+
+@media (max-width: 720px) {
+  .section { padding: 56px 20px; }
+}
