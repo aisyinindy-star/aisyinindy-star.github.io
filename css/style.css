@@ -1,0 +1,11 @@
+/* File utama CSS: hanya menggabungkan file-file lain. Urutan import penting. */
+@import "variables.css";
+@import "base.css";
+@import "background.css";
+@import "navbar.css";
+@import "footer.css";
+@import "home.css";
+@import "skills.css";
+@import "projects.css";
+@import "about.css";
+@import "contact.css";

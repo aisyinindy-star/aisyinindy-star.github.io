@@ -1,0 +1,7 @@
+/* Halaman Projects */
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 28px; }
+.card { background: var(--panel); border-radius: var(--radius); overflow: hidden; }
+.card img { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; background: var(--bg-deep); }
+.card div { padding: 20px 22px 24px; }
+.card h3 { font-family: var(--display); font-size: 1.25rem; margin-bottom: 6px; }
+.card p { color: var(--muted); font-size: .97rem; }

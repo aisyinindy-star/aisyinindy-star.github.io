@@ -1,0 +1,6 @@
+/* Halaman Home */
+.hero { min-height: 70vh; display: grid; align-content: center; background: radial-gradient(520px 320px at 85% 40%, rgba(var(--accent-rgb), .22), transparent 70%); }
+.hero .hi { color: var(--accent); font-weight: 500; font-size: 1.1rem; }
+.hero h1 { font-family: var(--display); font-weight: 800; font-size: clamp(3rem, 10vw, 6.5rem); line-height: 1; margin: 8px 0 20px; }
+.hero .intro { max-width: 46ch; color: var(--muted); font-size: 1.1rem; margin-bottom: 32px; }
+.actions { display: flex; gap: 14px; flex-wrap: wrap; }
